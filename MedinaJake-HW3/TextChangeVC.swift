@@ -11,12 +11,13 @@ class TextChangeVC: UIViewController {
 
     @IBOutlet weak var textField: UITextField!
     
-    var inputText = ""
+    var delegate: UIViewController?
+    var textChangeVCNewName = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        textField.text = inputText
+        textField.text = textChangeVCNewName
         // Do any additional setup after loading the view.
     }
     
@@ -31,6 +32,8 @@ class TextChangeVC: UIViewController {
     }
     */
 
-//    @IBAction func saveText(_ sender: Any) {
-//    }
+    @IBAction func saveText(_ sender: Any) {
+        let otherVC = delegate as! TextChanger
+        otherVC.changeText(newName: textField.text!)
+    }
 }

@@ -7,7 +7,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+protocol TextChanger {
+    func changeText(newName:String)
+}
+
+class ViewController: UIViewController, TextChanger {
 
     @IBOutlet weak var textLabel: UILabel!
     
@@ -16,19 +20,21 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        textLabel.text = "Text goes here"
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == textChangeSegueIdentifier,
            let destination = segue.destination as? TextChangeVC
         {
-            
-            destination.inputText = textLabel.text!
+            destination.delegate = self
+            destination.textChangeVCNewName = textLabel.text!
         }
     }
     
-    
-
+    func changeText(newName: String) {
+        textLabel.text = newName
+    }
 
 }
 
