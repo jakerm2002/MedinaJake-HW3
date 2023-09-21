@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66CD2A742ABBEFFB00CB5DB8 /* TextChangeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CD2A732ABBEFFB00CB5DB8 /* TextChangeVC.swift */; };
 		66EF54822ABBEE3F00FA2548 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EF54812ABBEE3F00FA2548 /* AppDelegate.swift */; };
 		66EF54842ABBEE3F00FA2548 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EF54832ABBEE3F00FA2548 /* SceneDelegate.swift */; };
 		66EF54862ABBEE3F00FA2548 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EF54852ABBEE3F00FA2548 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		66CD2A732ABBEFFB00CB5DB8 /* TextChangeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextChangeVC.swift; sourceTree = "<group>"; };
 		66EF547E2ABBEE3E00FA2548 /* MedinaJake-HW3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MedinaJake-HW3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66EF54812ABBEE3F00FA2548 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66EF54832ABBEE3F00FA2548 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				66EF54832ABBEE3F00FA2548 /* SceneDelegate.swift */,
 				66EF54852ABBEE3F00FA2548 /* ViewController.swift */,
 				66EF54872ABBEE3F00FA2548 /* Main.storyboard */,
+				66CD2A732ABBEFFB00CB5DB8 /* TextChangeVC.swift */,
 				66EF548A2ABBEE4200FA2548 /* Assets.xcassets */,
 				66EF548C2ABBEE4200FA2548 /* LaunchScreen.storyboard */,
 				66EF548F2ABBEE4200FA2548 /* Info.plist */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				66EF54862ABBEE3F00FA2548 /* ViewController.swift in Sources */,
+				66CD2A742ABBEFFB00CB5DB8 /* TextChangeVC.swift in Sources */,
 				66EF54822ABBEE3F00FA2548 /* AppDelegate.swift in Sources */,
 				66EF54842ABBEE3F00FA2548 /* SceneDelegate.swift in Sources */,
 			);
