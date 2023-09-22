@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66412E182ABCF68F00E7D3F4 /* ColorChangeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66412E172ABCF68F00E7D3F4 /* ColorChangeVC.swift */; };
 		66CD2A742ABBEFFB00CB5DB8 /* TextChangeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CD2A732ABBEFFB00CB5DB8 /* TextChangeVC.swift */; };
 		66EF54822ABBEE3F00FA2548 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EF54812ABBEE3F00FA2548 /* AppDelegate.swift */; };
 		66EF54842ABBEE3F00FA2548 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EF54832ABBEE3F00FA2548 /* SceneDelegate.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		66412E172ABCF68F00E7D3F4 /* ColorChangeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorChangeVC.swift; sourceTree = "<group>"; };
 		66CD2A732ABBEFFB00CB5DB8 /* TextChangeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextChangeVC.swift; sourceTree = "<group>"; };
 		66EF547E2ABBEE3E00FA2548 /* MedinaJake-HW3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MedinaJake-HW3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66EF54812ABBEE3F00FA2548 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				66EF54832ABBEE3F00FA2548 /* SceneDelegate.swift */,
 				66EF54852ABBEE3F00FA2548 /* ViewController.swift */,
 				66EF54872ABBEE3F00FA2548 /* Main.storyboard */,
+				66412E172ABCF68F00E7D3F4 /* ColorChangeVC.swift */,
 				66CD2A732ABBEFFB00CB5DB8 /* TextChangeVC.swift */,
 				66EF548A2ABBEE4200FA2548 /* Assets.xcassets */,
 				66EF548C2ABBEE4200FA2548 /* LaunchScreen.storyboard */,
@@ -143,6 +146,7 @@
 			files = (
 				66EF54862ABBEE3F00FA2548 /* ViewController.swift in Sources */,
 				66CD2A742ABBEFFB00CB5DB8 /* TextChangeVC.swift in Sources */,
+				66412E182ABCF68F00E7D3F4 /* ColorChangeVC.swift in Sources */,
 				66EF54822ABBEE3F00FA2548 /* AppDelegate.swift in Sources */,
 				66EF54842ABBEE3F00FA2548 /* SceneDelegate.swift in Sources */,
 			);

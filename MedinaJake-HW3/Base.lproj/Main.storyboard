@@ -38,6 +38,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Change color"/>
+                                <connections>
+                                    <segue destination="H7V-Ni-5U0" kind="show" identifier="ColorChangeSegueIdentifier" id="jVO-PR-ctX"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -87,6 +90,42 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="B89-nV-tWI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1881.3084112149531" y="93.30453563714903"/>
+        </scene>
+        <!--Color ChangeVC-->
+        <scene sceneID="CLs-jb-pbM">
+            <objects>
+                <viewController id="H7V-Ni-5U0" customClass="ColorChangeVC" customModule="MedinaJake_HW3" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sLo-rA-ydO">
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UXN-WB-5Ys">
+                                <rect key="frame" x="188" y="366" width="54" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Red"/>
+                                <connections>
+                                    <action selector="redButtonPressed:" destination="H7V-Ni-5U0" eventType="touchUpInside" id="iFk-ec-j3b"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iyc-BI-u9S">
+                                <rect key="frame" x="186" y="212" width="58" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Blue"/>
+                                <connections>
+                                    <action selector="blueButtonPressed:" destination="H7V-Ni-5U0" eventType="touchUpInside" id="LKV-wY-a7N"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="rub-qj-kEb"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="9Ka-iY-c6x"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gBC-GP-gRx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1881" y="785"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="dVb-RX-Zl1">
