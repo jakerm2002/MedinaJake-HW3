@@ -4,6 +4,9 @@
 //
 //  Created by Jake Medina on 9/21/23.
 //
+// Project: MedinaJake-HW3
+// EID: jrm7784
+// Course: CS371L
 
 import UIKit
 
@@ -13,26 +16,15 @@ class ColorChangeVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
-    
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+    // updates Main VC bg color to blue
     @IBAction func blueButtonPressed(_ sender: Any) {
         let otherVC = delegate as! ColorChanger
         otherVC.changeColor(newColor: UIColor.blue)
     }
     
+    // updates Main VC bg color to red
     @IBAction func redButtonPressed(_ sender: Any) {
         let otherVC = delegate as! ColorChanger
         otherVC.changeColor(newColor: UIColor.red)
